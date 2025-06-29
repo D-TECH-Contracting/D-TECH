@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D-TECH | Modern IT & Web Solutions</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">D-TECH</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#addons">Add-Ons</a></li>
+        <li><a href="#hardware-advisor">Hardware</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="hero">
+    <div class="hero-img-bg"></div>
+    <div class="container">
+      <h1 class="fade-in">D-TECH</h1>
+      <p class="tagline fade-in">Quick, Remote, and Affordable IT & Web Solutions</p>
+      <a href="#contact" class="cta-btn fade-in">Get in Touch</a>
+    </div>
+    <div class="hero-bg-shape"></div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About D-TECH</h2>
+      <p>D-Tech, a startup that helps businesses tackle IT and web projects—quickly, remotely, and affordably.<br><br>Whether you're looking for a clean one-page website, an AI chatbot, or a full cybersecurity setup, we offer modern, one-time solutions built to fit your goals and budget.</p>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>Our Work</h2>
+      <div class="portfolio-gallery">
+        <div class="portfolio-item">
+          <img src="project1.png" alt="CropCycle Dashboard" />
+          <p>CropCycle Dashboard – Sustainable Farming Platform</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project2.png" alt="CropCycle Community Forum" />
+          <p>Community Forum – Connect & Share with Farmers</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project3.png" alt="Water Usage Tracker" />
+          <p>Water Usage Tracker – Monitor and Record Water Usage</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project4.png" alt="Profile Settings" />
+          <p>Profile Settings – Manage User Information</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project5.png" alt="Weather Forecast Offline" />
+          <p>Weather Forecast – Offline State Example</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project6.png" alt="Community Forum Example" />
+          <p>Community Forum – User Interactions and Posts</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal for enlarged portfolio images -->
+  <div id="portfolioModal" class="portfolio-modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg" alt="Enlarged Work Example" style="display:block;">
+    <div id="modalCaption"></div>
+  </div>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul class="service-list reveal">
+        <li class="service-clickable"><span class="icon">🎨</span> UX Website Design
+          <span class="service-desc" style="display:none;">Modern, user-focused web design for a seamless digital experience.</span>
+        </li>
+        <li class="service-clickable"><span class="icon">🛠️</span> IT Support &amp; Troubleshooting
+          <span class="service-desc" style="display:none;">Fast, remote help for all your IT issues and device needs.</span>
+        </li>
+        <li class="service-clickable"><span class="icon">🔒</span> Cybersecurity Setup
+          <span class="service-desc" style="display:none;">Secure your business with audits, antivirus, and staff training.</span>
+        </li>
+        <li class="service-clickable"><span class="icon">🖌️</span> Graphic Design &amp; Branding
+          <span class="service-desc" style="display:none;">Professional graphics and branding to make your business stand out.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="packages" id="packages">
+    <div class="container">
+      <h2>Packages</h2>
+      <div class="package-cards">
+        <div class="card reveal package-clickable">
+          <h3>Starter UX Web Design – <span class="price">$499</span></h3>
+          <ul>
+            <li>1-page website</li>
+            <li>Mobile optimized</li>
+            <li>Basic SEO</li>
+            <li>1-week delivery</li>
+          </ul>
+          <span class="package-desc" style="display:none;">Perfect for small businesses needing a fast, beautiful web presence.</span>
+        </div>
+        <div class="card reveal package-clickable">
+          <h3>Small Biz IT Support – <span class="price">$299/month</span></h3>
+          <ul>
+            <li>Up to 10 hours of remote IT help</li>
+            <li>Device/software troubleshooting</li>
+            <li>Network setup</li>
+          </ul>
+          <span class="package-desc" style="display:none;">Ongoing remote IT help for your team, including troubleshooting and setup.</span>
+        </div>
+        <div class="card reveal package-clickable">
+          <h3>Cybersecurity Essentials – <span class="price">$399</span></h3>
+          <ul>
+            <li>Security audit</li>
+            <li>Antivirus &amp; password protocols</li>
+            <li>Staff training</li>
+          </ul>
+          <span class="package-desc" style="display:none;">Protect your business with essential security tools and training.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="addons" id="addons">
+    <div class="container">
+      <h2>Add-Ons</h2>
+      <div class="addon-grid">
+        <div class="addon-card reveal addon-clickable">
+          <h4>E-Commerce Setup – <span class="price">+$399</span></h4>
+          <ul>
+            <li>Shopify, WooCommerce, or Wix Store setup</li>
+            <li>Up to 10 products</li>
+            <li>Payment gateway integration</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Launch your online store with Shopify, WooCommerce, or Wix.</span>
+        </div>
+        <div class="addon-card reveal addon-clickable">
+          <h4>Chatbot Integration – <span class="price">+$249</span></h4>
+          <ul>
+            <li>AI chatbot (e.g. Tidio or Chatbase)</li>
+            <li>1 custom conversation flow</li>
+            <li>Embedded on website</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Add an AI chatbot to your site for instant customer support.</span>
+        </div>
+        <div class="addon-card reveal addon-clickable">
+          <h4>Custom Forms / Booking System – <span class="price">+$149</span></h4>
+          <ul>
+            <li>Contact or booking form</li>
+            <li>Email integration (e.g., Gmail, Mailchimp)</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Streamline contact and bookings with custom forms.</span>
+        </div>
+        <div class="addon-card reveal addon-clickable">
+          <h4>Extra Website Pages – <span class="price">+$99/page</span></h4>
+          <ul>
+            <li>Clean design matching site</li>
+            <li>Includes formatting &amp; stock images</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Expand your site with additional, professionally designed pages.</span>
+        </div>
+        <div class="addon-card reveal addon-clickable">
+          <h4>Advanced SEO – <span class="price">+$199</span></h4>
+          <ul>
+            <li>Keyword research</li>
+            <li>Tags/meta/sitemap</li>
+            <li>Google Search Console setup</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Boost your search rankings with advanced SEO tools and setup.</span>
+        </div>
+        <div class="addon-card reveal addon-clickable">
+          <h4>Startup Branding Kit – <span class="price">+$299</span></h4>
+          <ul>
+            <li>Logo (basic options)</li>
+            <li>Brand colors &amp; font combo</li>
+            <li>Social media icons</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Get a logo, brand colors, and social icons for your startup.</span>
+        </div>
+        <div class="addon-card reveal addon-clickable">
+          <h4>Hero Video (30 sec) – <span class="price">+$199</span></h4>
+          <ul>
+            <li>Short script + visuals</li>
+            <li>Royalty-free music</li>
+            <li>Ideal for homepages or ads</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Short, impactful video for your homepage or ads.</span>
+        </div>
+        <div class="addon-card reveal addon-clickable">
+          <h4>Cybersecurity Boost – <span class="price">+$299</span></h4>
+          <ul>
+            <li>DNS filtering (Cloudflare, etc.)</li>
+            <li>Password manager setup (Bitwarden)</li>
+            <li>Basic phishing education</li>
+          </ul>
+          <span class="addon-desc" style="display:none;">Advanced DNS filtering, password management, and phishing education.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hardware-advisor" id="hardware-advisor">
+    <div class="container">
+      <h2 class="hardware-clickable" style="cursor:pointer;">Workstation Hardware Advisor – Startup Pricing
+        <span class="hardware-desc" style="display:none;">Our Workstation Hardware Advisor service is designed to help startups and growing businesses make the smartest investments in their IT infrastructure. We analyze your team's roles, workloads, and budget to recommend the best-value workstation builds for each member. Whether you need entry-level setups for administrative staff or high-performance machines for developers and designers, we provide tailored recommendations that balance cost, performance, and future scalability. Our service includes:
+        <ul style='margin:0 0 0 1.2em;padding:0;'>
+          <li>Comprehensive needs assessment for each team member or role</li>
+          <li>Custom build lists with up-to-date, reliable hardware options</li>
+          <li>Budget optimization to maximize value at every price point</li>
+          <li>Optional purchase list and remote order assistance</li>
+          <li>Guidance on warranties, peripherals, and future upgrades</li>
+        </ul>
+        With D-TECH, you avoid overspending on unnecessary specs and ensure your team has the right tools to be productive from day one. Perfect for startups scaling fast or businesses looking to refresh their hardware with expert guidance.</span>
+      </h2>
+      <p>We'll recommend the best-value workstation builds per team member or role, based on your budget.</p>
+      <div class="advisor-cards">
+        <div class="card reveal">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Starter Plan" class="card-img" />
+          <h4>Starter Plan (Under $10k budget) – <span class="price">$99</span></h4>
+        </div>
+        <div class="card reveal">
+          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Growth Plan" class="card-img" />
+          <h4>Growth Plan ($10k–$30k) – <span class="price">$199</span></h4>
+        </div>
+        <div class="card reveal">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80" alt="Scale Plan" class="card-img" />
+          <h4>Scale Plan ($30k–$60k) – <span class="price">$299</span></h4>
+        </div>
+        <div class="card reveal">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Purchase List" class="card-img" />
+          <h4>Add-On: Purchase List &amp; Remote Order – <span class="price">+$149</span></h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">How fast can you deliver a website?</button>
+          <div class="faq-answer">Our Starter UX Web Design package is delivered in just 1 week!</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Is all your work remote?</button>
+          <div class="faq-answer">Yes! All our services are delivered remotely for your convenience and speed.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can I combine packages and add-ons?</button>
+          <div class="faq-answer">Absolutely! You can mix and match any packages and add-ons to fit your needs.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email us at <a href="mailto:info@dtech.com">info@dtech.com</a> or use the form below:</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <div class="form-message"></div>
+      </form>
+    </div>
+  </section>
+
+  <button id="backToTop" title="Back to top">↑</button>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 D-TECH. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html> 
